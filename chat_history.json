@@ -1,0 +1,74 @@
+[
+    {
+        "date": "05/06/2025",
+        "time": "09:56:41",
+        "username": "usuario 1",
+        "message": "ola novamente"
+    },
+    {
+        "date": "05/06/2025",
+        "time": "09:56:46",
+        "username": "usuario 2",
+        "message": "ola"
+    },
+    {
+        "date": "05/06/2025",
+        "time": "09:56:53",
+        "username": "usuario 3",
+        "message": "salve"
+    },
+    {
+        "date": "05/06/2025",
+        "time": "09:57:24",
+        "username": "usuario 3",
+        "message": "adicionando usuario 4 para teste da duplicação de mensagens no histórico"
+    },
+    {
+        "date": "05/06/2025",
+        "time": "09:57:28",
+        "username": "usuario 2",
+        "message": "ok"
+    },
+    {
+        "date": "05/06/2025",
+        "time": "09:57:33",
+        "username": "usuario 1",
+        "message": "ok"
+    },
+    {
+        "date": "05/06/2025",
+        "time": "09:58:20",
+        "username": "usuario 4",
+        "message": "parece que está tudo certo senhores"
+    },
+    {
+        "date": "05/06/2025",
+        "time": "09:59:13",
+        "username": "usuario 4",
+        "message": "inclusive, agora podemos começar as melhorias dessa interface criminosa"
+    },
+    {
+        "date": "05/06/2025",
+        "time": "09:59:23",
+        "username": "usuario 1",
+        "message": "perfeito"
+    },
+    {
+        "date": "05/06/2025",
+        "time": "09:59:28",
+        "username": "usuario 2",
+        "message": "concordo"
+    },
+    {
+        "date": "05/06/2025",
+        "time": "09:59:51",
+        "username": "usuario 3",
+        "message": "vocês são loucos"
+    },
+    {
+        "date": "05/06/2025",
+        "time": "10:00:27",
+        "username": "usuario 3",
+        "message": "oi"
+    }
+]
