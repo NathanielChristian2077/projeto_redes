@@ -20,7 +20,7 @@ sock.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, socket.inet_aton(MC
 # GUI
 window = tk.Tk()
 window.title("MChast")
-window.geometry("600x400")
+window.geometry("400x600")
 
 chat_text = scrolledtext.ScrolledText(window, state='disabled', wrap=tk.WORD)
 chat_text.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
@@ -49,13 +49,13 @@ def send():
     except Exception as e:
         print(f"Erro no envio da mensagem: {e}")
 
-## Botões
+# Botões
 btn_send = tk.Button(frame_low, text="send", command=send)
 btn_send.pack(side=tk.RIGHT, padx=(10, 0))
 
 # window.bind('<Return>', send)
 
-## Atualizando chat
+# Atualizando chat
 def chat_update(msg_json):
     chat_text.configure(state='normal')
     chat_text.insert(tk.END, f"[{msg_json['date']} {msg_json['time']}] {msg_json['username']}: {msg_json['message']}\n")
