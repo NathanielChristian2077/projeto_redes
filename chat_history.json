@@ -76,5 +76,89 @@
         "time": "08:48:21",
         "username": "usuario 1",
         "message": "voltei pra testar mais"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "10:59:20",
+        "username": "usuario 1",
+        "message": "ola novamente"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "10:59:28",
+        "username": "usuario 2",
+        "message": "ola usuario 1"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "11:07:16",
+        "username": "usuario 1",
+        "message": "teste do return"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "11:07:48",
+        "username": "usuario 2",
+        "message": "teste do return de novo, com outro usuario"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "11:08:10",
+        "username": "usuario 1",
+        "message": "parece que funciona"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "11:08:11",
+        "username": "usuario 2",
+        "message": "pois é"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "11:09:06",
+        "username": "usuario 1",
+        "message": "teste de dois usuarios de mesmo nome"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "11:09:07",
+        "username": "usuario 1",
+        "message": "teste de dois usuarios de mesmo nome (sou o falso)"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "11:19:23",
+        "username": "usuario 1",
+        "message": "novo teste com usuarios iguais"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "11:19:27",
+        "username": "usuario 1",
+        "message": "novo teste com usuarios iguais(sou o falso)"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "11:23:30",
+        "username": "usuario 1",
+        "message": "teste 3 (sou o falso)"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "11:23:33",
+        "username": "usuario 1",
+        "message": "teste 3"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "11:35:21",
+        "username": "usuario 1",
+        "message": "teste 4"
+    },
+    {
+        "date": "23/06/2025",
+        "time": "11:35:23",
+        "username": "usuario 1",
+        "message": "teste 4 (sou o falso)"
     }
 ]

@@ -1,16 +1,16 @@
 {
-    "actuator_light_meetroom": "off",
-    "sensor_airtemp_meetroom": 22.5,
-    "sensor_airhumid_meetroom": 60.0,
-    "actuator_airtemp_guarita": 23.0,
-    "actuator_air_guarita": "on",
-    "sensor_airtemp_guarita": 23.0,
-    "actuator_light_reception": "on",
-    "sensor_airtemp_reception": 21.0,
-    "sensor_airhumid_reception": 55.0,
-    "actuator_light_office": "off",
-    "sensor_airtemp_office": 24.0,
-    "sensor_airhumid_office": 45.0,
-    "actuator_airtemp_office": 22.0,
-    "actuator_air_office": "off"
-  }
+  "actuator_light_meetroom": "on",
+  "sensor_airtemp_meetroom": 18.3,
+  "sensor_airhumid_meetroom": 52.3,
+  "actuator_airtemp_guarita": "20.0",
+  "actuator_air_guarita": "on",
+  "sensor_airtemp_guarita": 20.7,
+  "actuator_light_reception": "off",
+  "sensor_airtemp_reception": 18.6,
+  "sensor_airhumid_reception": 61.1,
+  "actuator_light_office": "off",
+  "sensor_airtemp_office": 18.5,
+  "sensor_airhumid_office": 71.4,
+  "actuator_airtemp_office": 22.0,
+  "actuator_air_office": "on"
+}

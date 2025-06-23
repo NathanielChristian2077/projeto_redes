@@ -263,7 +263,7 @@ class MonitoringClient:
         # Criar janela de controle
         control_window = tk.Toplevel(self.root)
         control_window.title(f"Controlar {device_name}")
-        control_window.geometry("300x200")
+        control_window.geometry("300x300")
         control_window.resizable(False, False)
         
         # Centralizar janela
@@ -281,16 +281,7 @@ class MonitoringClient:
         ttk.Label(frame, text="Novo valor:").pack(pady=5)
         
         # Entrada de valor baseada no tipo de dispositivo
-        if 'light' in device_name or 'air' in device_name:
-            # Para luzes e ar-condicionado (on/off)
-            value_var = tk.StringVar(value=current_value if current_value in ['on', 'off'] else 'off')
-            value_frame = ttk.Frame(frame)
-            value_frame.pack(pady=5)
-            
-            ttk.Radiobutton(value_frame, text="Ligado", variable=value_var, value="on").pack(side=tk.LEFT, padx=5)
-            ttk.Radiobutton(value_frame, text="Desligado", variable=value_var, value="off").pack(side=tk.LEFT, padx=5)
-        
-        elif 'airtemp' in device_name:
+        if 'airtemp' in device_name:
             # Para temperatura
             value_var = tk.StringVar(value=current_value if current_value != 'N/A' else '22.0')
             entry_frame = ttk.Frame(frame)
@@ -298,6 +289,14 @@ class MonitoringClient:
             
             ttk.Entry(entry_frame, textvariable=value_var, width=10).pack(side=tk.LEFT, padx=5)
             ttk.Label(entry_frame, text="°C").pack(side=tk.LEFT)
+        elif 'light' in device_name or 'air' in device_name:
+            # Para luzes e ar-condicionado (on/off)
+            value_var = tk.StringVar(value=current_value if current_value in ['on', 'off'] else 'off')
+            value_frame = ttk.Frame(frame)
+            value_frame.pack(pady=5)
+            
+            ttk.Radiobutton(value_frame, text="Ligado", variable=value_var, value="on").pack(side=tk.LEFT, padx=5)
+            ttk.Radiobutton(value_frame, text="Desligado", variable=value_var, value="off").pack(side=tk.LEFT, padx=5)
         
         else:
             # Entrada genérica

@@ -31,7 +31,7 @@ frame_low.pack(fill=tk.X, padx=10, pady=(0, 10))
 msg_input = tk.Entry(window)
 msg_input.pack(side=tk.LEFT, padx=10, fill=tk.X, expand=True)
 
-def send():
+def send(event=None):
     msg = msg_input.get()
     if msg.strip() == "":
         return
@@ -48,12 +48,11 @@ def send():
         hist_save(json_msg)
     except Exception as e:
         print(f"Erro no envio da mensagem: {e}")
+msg_input.bind('<Return>', send)
 
 # Botões
 btn_send = tk.Button(frame_low, text="send", command=send)
 btn_send.pack(side=tk.RIGHT, padx=(10, 0))
-
-# window.bind('<Return>', send)
 
 # Atualizando chat
 def chat_update(msg_json):
@@ -73,14 +72,11 @@ def thread_recv():
         except json.JSONDecodeError:
             continue
 
-# Loading hist
-for msg in load_hist():
-    chat_update(msg)
-
-# Start da thread
-threading.Thread(target=thread_recv, daemon=True).start()
-
-# Loop básico do código
-window.mainloop()
-
-# TODO: Melhorias de GUI e 'Enter' para enviar mensagem.
+if __name__ == "__main__":
+    # Loading hist
+    for msg in load_hist():
+        chat_update(msg)
+    # Start da thread
+    threading.Thread(target=thread_recv, daemon=True).start()
+    # Loop básico do código
+    window.mainloop()
