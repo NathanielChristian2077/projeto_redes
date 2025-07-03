@@ -112,10 +112,10 @@ Formato: `<type>_<device>_<place>`
 - Persistência de configuração em arquivo JSON
 - Monitoramento automático configurável
 
-### Testando o sistema:
+### Teste do sistema:
 
 1. Para a **Parte 2**, crie alguns arquivos de teste e teste o upload/download
 2. Para a **Parte 3**, execute servidor e cliente, teste todos os comandos via interface gráfica
 3. Verifique a persistência alterando valores de atuadores e reiniciando o servidor
 
-Ambas as implementações seguem rigorosamente as especificações da avaliação e incluem tratamento de erros, logs informativos e interfaces amigáveis.
+Ambas as implementações seguem rigorosamente as especificações da avaliação e incluem tratamento de erros, logs informativos e interfaces.
