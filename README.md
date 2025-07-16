@@ -3,9 +3,9 @@
 Implementação das Partes 1, 2 e 3 do projeto prático da disciplina Redes
 de Computadores I.
 
-1. [Parte 1]([#Parte1])
-2. [Parte 2]([#Parte2])
-3. [Parte 3]([#Parte3])
+1. [Parte 1]([#parte-1-chat-multicast-com-udp])
+2. [Parte 2]([#parte-2-servidor-de-arquivos-tcp-com-protocolo-json])
+3. [Parte 3]([#parte-3-sistema-de-monitoramento-e-controle-com-udp--interface-gr%C3%A1fica])
 4. [Requisitos]([#requisitos])
 
 **Autor**: Nathaniel Christian Silva Alves 
