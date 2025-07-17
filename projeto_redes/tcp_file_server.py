@@ -120,7 +120,7 @@ class FileServer:
         try:
             while True:
                 # Receber dados do cliente
-                data = client_socket.recv(4096).decode('utf-8')
+                data = client_socket.recv(65536).decode('utf-8')
                 if not data:
                     break
                 

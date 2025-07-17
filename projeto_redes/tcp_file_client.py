@@ -34,7 +34,7 @@ class FileClient:
             request_json = json.dumps(request)
             self.socket.send(request_json.encode('utf-8'))
             
-            response = self.socket.recv(4096).decode('utf-8')
+            response = self.socket.recv(65536).decode('utf-8')
             return json.loads(response)
         except Exception as e:
             print(f"Erro na comunicação: {e}")
